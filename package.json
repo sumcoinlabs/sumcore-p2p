@@ -58,7 +58,7 @@
   "dependencies": {
     "litecore-lib": "^0.13.19",
     "bloom-filter": "^0.2.0",
-    "buffers": "^0.1.1",
+    "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
