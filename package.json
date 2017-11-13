@@ -25,7 +25,7 @@
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "litecore-build": "git://github.com/litecoin-project/litecore-build.git",
+    "litecore-build": "https://github.com/litecoin-project/litecore-build#v5.0",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
