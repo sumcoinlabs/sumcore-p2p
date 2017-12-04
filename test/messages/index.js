@@ -124,13 +124,14 @@ describe('Messages', function() {
 
     var constructors = messages.builder.inventoryCommands;
     var fakeHash = 'e2dfb8afe1575bfacae1a0b4afc49af7ddda69285857267bae0e22be15f74a3a';
+    var fWitness = true;
 
     describe('#forTransaction', function() {
       constructors.forEach(function(command) {
         var name = messages.builder.commandsMap[command];
         it(name, function() {
           should.exist(messages[name].forTransaction);
-          var message = messages[name].forTransaction(fakeHash);
+          var message = messages[name].forTransaction(fakeHash, fWitness);
           should.exist(message);
           message.should.be.instanceof(messages[name]._constructor);
         });
@@ -141,7 +142,7 @@ describe('Messages', function() {
       constructors.forEach(function(command) {
         var name = messages.builder.commandsMap[command];
         it(name, function() {
-          var message = messages[name].forBlock(fakeHash);
+          var message = messages[name].forBlock(fakeHash, fWitness);
           should.exist(message);
           message.should.be.instanceof(messages[name]._constructor);
         });
@@ -152,7 +153,7 @@ describe('Messages', function() {
       constructors.forEach(function(command) {
         var name = messages.builder.commandsMap[command];
         it(name, function() {
-          var message = messages[name].forFilteredBlock(fakeHash);
+          var message = messages[name].forFilteredBlock(fakeHash, fWitness);
           should.exist(message);
           message.should.be.instanceof(messages[name]._constructor);
         });

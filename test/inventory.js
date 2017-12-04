@@ -50,6 +50,12 @@ describe('Inventory', function() {
       should.exist(inventory);
       inventory.type.should.equal(Inventory.TYPE.BLOCK);
     });
+
+    it('use correct witness block type', function() {
+      var inventory = Inventory.forBlock(hash, true);
+      should.exist(inventory);
+      inventory.type.should.equal(Inventory.TYPE.WITNESS_BLOCK);
+    });
   });
 
   describe('#forFilteredBlock', function() {
@@ -58,13 +64,25 @@ describe('Inventory', function() {
       should.exist(inventory);
       inventory.type.should.equal(Inventory.TYPE.FILTERED_BLOCK);
     });
+
+    it('use correct filtered witness block type', function() {
+      var inventory = Inventory.forFilteredBlock(hash, true);
+      should.exist(inventory);
+      inventory.type.should.equal(Inventory.TYPE.FILTERED_WITNESS_BLOCK);
+    });
   });
 
   describe('#forTransaction', function() {
-    it('use correct filtered tx type', function() {
+    it('use correct tx type', function() {
       var inventory = Inventory.forTransaction(hash);
       should.exist(inventory);
       inventory.type.should.equal(Inventory.TYPE.TX);
+    });
+
+    it('use correct witness tx type', function() {
+      var inventory = Inventory.forTransaction(hash, true);
+      should.exist(inventory);
+      inventory.type.should.equal(Inventory.TYPE.WITNESS_TX);
     });
   });
 
