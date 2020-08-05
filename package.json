@@ -1,7 +1,7 @@
 {
-  "name": "litecore-p2p",
+  "name": "sumcore-p2p",
   "version": "1.1.2",
-  "description": "Interface to the litecoin P2P network for litecore",
+  "description": "Interface to the litecoin P2P network for sumcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -49,14 +49,14 @@
   ],
   "keywords": [
     "litecoin",
-    "litecore"
+    "sumcore"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sumcoinlab/litecore-p2p.git"
+    "url": "https://github.com/sumcoinlab/sumcore-p2p.git"
   },
   "dependencies": {
-    "litecore-lib": "^0.13.19",
+    "sumcore-lib": "^0.13.19",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"

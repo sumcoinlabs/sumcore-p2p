@@ -3244,9 +3244,9 @@ liftoff@^2.1.0:
     run-sequence "^1.0.2"
     zuul "1.16.3"
 
-litecore-lib@^0.13.19:
+sumcore-lib@^0.13.19:
   version "0.13.21"
-  resolved "https://registry.yarnpkg.com/litecore-lib/-/litecore-lib-0.13.21.tgz#a56bfca333b641c9cffb3d3e266de83132ab0697"
+  resolved "https://registry.yarnpkg.com/sumcore-lib/-/sumcore-lib-0.13.21.tgz#a56bfca333b641c9cffb3d3e266de83132ab0697"
   dependencies:
     bn.js "=2.0.4"
     bs58 "=2.0.0"

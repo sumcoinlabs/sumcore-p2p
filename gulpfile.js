@@ -1,8 +1,8 @@
 'use strict';
 
 var gulp = require('gulp');
-var litecoreTasks = require('sumcore-build');
+var sumcoreTasks = require('sumcore-build');
 
-litecoreTasks('p2p', {skipBrowser: true});
+sumcoreTasks('p2p', {skipBrowser: true});
 
 gulp.task('default', ['lint', 'coverage']);

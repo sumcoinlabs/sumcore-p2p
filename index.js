@@ -1,4 +1,4 @@
-var litecore = require('litecore-lib');
-litecore.P2P = require('./lib');
+var sumcore = require('sumcore-lib');
+sumcore.P2P = require('./lib');
 
-module.exports = litecore.P2P;
+module.exports = sumcore.P2P;
