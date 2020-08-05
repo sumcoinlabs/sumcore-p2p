@@ -4,12 +4,12 @@ Litecore P2P
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/litecore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/litecore-p2p)
-[![Build Status](https://img.shields.io/travis/litecoin-project/litecore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/litecoin-project/litecore-p2p)
-[![Coverage Status](https://img.shields.io/coveralls/litecoin-project/litecore-p2p.svg?style=flat-square)](https://coveralls.io/r/litecoin-project/litecore-p2p?branch=master)
+[![Build Status](https://img.shields.io/travis/sumcoinlab/litecore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/sumcoinlab/litecore-p2p)
+[![Coverage Status](https://img.shields.io/coveralls/sumcoinlab/litecore-p2p.svg?style=flat-square)](https://coveralls.io/r/sumcoinlab/litecore-p2p?branch=master)
 
 `litecore-p2p` adds [Litecoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Litecore.
 
-See [the main litecore repo](https://github.com/litecoin-project/litecore) for more information.
+See [the main litecore repo](https://github.com/sumcoinlab/litecore) for more information.
 
 ## Getting Started
 
@@ -49,11 +49,11 @@ Take a look at the [litecore guide](http://litecore.io/guide/peer.html) on the u
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/litecoin-project/litecore/blob/master/CONTRIBUTING.md) on the main litecore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/sumcoinlab/litecore/blob/master/CONTRIBUTING.md) on the main litecore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/litecoin-project/litecore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/sumcoinlab/litecore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
 Copyright 2016 The Litecore Core Developers
