@@ -16,7 +16,7 @@ message = messages.GetData.forBlock(blockHash);
 message = messages.Inventory.forTransaction(txHash);
 ```
 
-As well as sending "tx" and "block" messages with Litecore instances:
+As well as sending "tx" and "block" messages with Sumcore instances:
 
 ```javascript
 message = messages.Block(block);
