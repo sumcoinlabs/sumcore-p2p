@@ -3215,9 +3215,9 @@ liftoff@^2.1.0:
     rechoir "^0.6.2"
     resolve "^1.1.7"
 
-"litecore-build@git://github.com/sumcoinlab/litecore-build.git":
+"sumcore-build@git://github.com/sumcoinlab/sumcore-build.git":
   version "0.5.5"
-  resolved "git://github.com/sumcoinlab/litecore-build.git#9d1d5a9a2530d9675df47c9af6a2e80cb422b823"
+  resolved "git://github.com/sumcoinlab/sumcore-build.git#9d1d5a9a2530d9675df47c9af6a2e80cb422b823"
   dependencies:
     brfs "^1.2.0"
     browserify "~13.1.0"
